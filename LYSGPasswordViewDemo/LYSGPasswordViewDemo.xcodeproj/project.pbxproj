@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC48F5F41F28E55F00D8B51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48F5F31F28E55F00D8B51B /* main.m */; };
+		CC48F5F71F28E55F00D8B51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48F5F61F28E55F00D8B51B /* AppDelegate.m */; };
+		CC48F5FA1F28E55F00D8B51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48F5F91F28E55F00D8B51B /* ViewController.m */; };
+		CC48F5FD1F28E55F00D8B51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48F5FB1F28E55F00D8B51B /* Main.storyboard */; };
+		CC48F5FF1F28E55F00D8B51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */; };
+		CC48F6021F28E55F00D8B51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48F6001F28E55F00D8B51B /* LaunchScreen.storyboard */; };
+		CC7829531FB97EA500409DFB /* LYSAssistGPView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78294C1FB97EA500409DFB /* LYSAssistGPView.m */; };
+		CC7829541FB97EA500409DFB /* LYSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */; };
+		CC7829551FB97EA500409DFB /* LYSGPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829501FB97EA500409DFB /* LYSGPasswordView.m */; };
+		CC7829561FB97EA500409DFB /* LYSLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829521FB97EA500409DFB /* LYSLineLayer.m */; };
+		CC7829581FB97EED00409DFB /* LYSGPasswordView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC7829571FB97EED00409DFB /* LYSGPasswordView.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC48F5EF1F28E55F00D8B51B /* LYSGPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSGPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48F5F31F28E55F00D8B51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC48F5F51F28E55F00D8B51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC48F5F61F28E55F00D8B51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC48F5F81F28E55F00D8B51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC48F5F91F28E55F00D8B51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC48F5FC1F28E55F00D8B51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC48F6011F28E55F00D8B51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC48F6031F28E55F00D8B51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC78294B1FB97EA500409DFB /* LYSAssistGPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSAssistGPView.h; sourceTree = "<group>"; };
+		CC78294C1FB97EA500409DFB /* LYSAssistGPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSAssistGPView.m; sourceTree = "<group>"; };
+		CC78294D1FB97EA500409DFB /* LYSCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSCircleLayer.h; sourceTree = "<group>"; };
+		CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSCircleLayer.m; sourceTree = "<group>"; };
+		CC78294F1FB97EA500409DFB /* LYSGPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSGPasswordView.h; sourceTree = "<group>"; };
+		CC7829501FB97EA500409DFB /* LYSGPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSGPasswordView.m; sourceTree = "<group>"; };
+		CC7829511FB97EA500409DFB /* LYSLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSLineLayer.h; sourceTree = "<group>"; };
+		CC7829521FB97EA500409DFB /* LYSLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSLineLayer.m; sourceTree = "<group>"; };
+		CC7829571FB97EED00409DFB /* LYSGPasswordView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSGPasswordView.podspec; path = ../../LYSGPasswordView.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC48F5EC1F28E55F00D8B51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC48F5E61F28E55F00D8B51B = {
+			isa = PBXGroup;
+			children = (
+				CC48F5F11F28E55F00D8B51B /* LYSGPasswordViewDemo */,
+				CC48F5F01F28E55F00D8B51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC48F5F01F28E55F00D8B51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC48F5EF1F28E55F00D8B51B /* LYSGPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC48F5F11F28E55F00D8B51B /* LYSGPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC7829571FB97EED00409DFB /* LYSGPasswordView.podspec */,
+				CC78294A1FB97EA500409DFB /* LYSGPasswordView */,
+				CC48F5F51F28E55F00D8B51B /* AppDelegate.h */,
+				CC48F5F61F28E55F00D8B51B /* AppDelegate.m */,
+				CC48F5F81F28E55F00D8B51B /* ViewController.h */,
+				CC48F5F91F28E55F00D8B51B /* ViewController.m */,
+				CC48F5FB1F28E55F00D8B51B /* Main.storyboard */,
+				CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */,
+				CC48F6001F28E55F00D8B51B /* LaunchScreen.storyboard */,
+				CC48F6031F28E55F00D8B51B /* Info.plist */,
+				CC48F5F21F28E55F00D8B51B /* Supporting Files */,
+			);
+			path = LYSGPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		CC48F5F21F28E55F00D8B51B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC48F5F31F28E55F00D8B51B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC78294A1FB97EA500409DFB /* LYSGPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				CC78294B1FB97EA500409DFB /* LYSAssistGPView.h */,
+				CC78294C1FB97EA500409DFB /* LYSAssistGPView.m */,
+				CC78294D1FB97EA500409DFB /* LYSCircleLayer.h */,
+				CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */,
+				CC78294F1FB97EA500409DFB /* LYSGPasswordView.h */,
+				CC7829501FB97EA500409DFB /* LYSGPasswordView.m */,
+				CC7829511FB97EA500409DFB /* LYSLineLayer.h */,
+				CC7829521FB97EA500409DFB /* LYSLineLayer.m */,
+			);
+			name = LYSGPasswordView;
+			path = ../../LYSGPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC48F5EE1F28E55F00D8B51B /* LYSGPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48F6061F28E55F00D8B51B /* Build configuration list for PBXNativeTarget "LYSGPasswordViewDemo" */;
+			buildPhases = (
+				CC48F5EB1F28E55F00D8B51B /* Sources */,
+				CC48F5EC1F28E55F00D8B51B /* Frameworks */,
+				CC48F5ED1F28E55F00D8B51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSGPasswordViewDemo;
+			productName = LYSGPasswordViewDemo;
+			productReference = CC48F5EF1F28E55F00D8B51B /* LYSGPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC48F5E71F28E55F00D8B51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LYS;
+				TargetAttributes = {
+					CC48F5EE1F28E55F00D8B51B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC48F5EA1F28E55F00D8B51B /* Build configuration list for PBXProject "LYSGPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC48F5E61F28E55F00D8B51B;
+			productRefGroup = CC48F5F01F28E55F00D8B51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC48F5EE1F28E55F00D8B51B /* LYSGPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC48F5ED1F28E55F00D8B51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48F6021F28E55F00D8B51B /* LaunchScreen.storyboard in Resources */,
+				CC7829581FB97EED00409DFB /* LYSGPasswordView.podspec in Resources */,
+				CC48F5FF1F28E55F00D8B51B /* Assets.xcassets in Resources */,
+				CC48F5FD1F28E55F00D8B51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC48F5EB1F28E55F00D8B51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7829551FB97EA500409DFB /* LYSGPasswordView.m in Sources */,
+				CC48F5FA1F28E55F00D8B51B /* ViewController.m in Sources */,
+				CC7829541FB97EA500409DFB /* LYSCircleLayer.m in Sources */,
+				CC7829561FB97EA500409DFB /* LYSLineLayer.m in Sources */,
+				CC7829531FB97EA500409DFB /* LYSAssistGPView.m in Sources */,
+				CC48F5F71F28E55F00D8B51B /* AppDelegate.m in Sources */,
+				CC48F5F41F28E55F00D8B51B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC48F5FB1F28E55F00D8B51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48F5FC1F28E55F00D8B51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC48F6001F28E55F00D8B51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48F6011F28E55F00D8B51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC48F6041F28E55F00D8B51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC48F6051F28E55F00D8B51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC48F6071F28E55F00D8B51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYSGPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HENAN.LYSGPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC48F6081F28E55F00D8B51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYSGPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HENAN.LYSGPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC48F5EA1F28E55F00D8B51B /* Build configuration list for PBXProject "LYSGPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48F6041F28E55F00D8B51B /* Debug */,
+				CC48F6051F28E55F00D8B51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48F6061F28E55F00D8B51B /* Build configuration list for PBXNativeTarget "LYSGPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48F6071F28E55F00D8B51B /* Debug */,
+				CC48F6081F28E55F00D8B51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC48F5E71F28E55F00D8B51B /* Project object */;
+}
