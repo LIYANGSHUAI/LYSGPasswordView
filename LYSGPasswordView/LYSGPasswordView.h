@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "LYSGPasswordStyle.h"
 
 //密码状态
 typedef NS_ENUM(NSInteger,LYPasswordState) {
@@ -25,34 +26,13 @@ typedef NS_ENUM(NSInteger,LYPasswordState) {
 - (void)lyPasswordView:(LYSGPasswordView *)passwordView didSelectNum:(NSArray *)numAry;
 @end
 
-
 @interface LYSGPasswordView : UIView
-
-@property (nonatomic,assign)NSInteger maxPasswordNum;
-
-@property (nonatomic,assign)UIEdgeInsets edgeInsets;               // 外边距
-
-@property (nonatomic,assign)CGFloat outerCircleRadius;             // 外圆半径
-
-@property (nonatomic,assign)CGFloat outerCicrcleBetweenMargin;     // 外圆间距
-
-@property (nonatomic,assign)CGFloat outerCircleLineWidth;          // 外圆线宽
-@property (nonatomic,strong)UIColor *outerCircleLineColor;         // 外圆线颜色
-@property (nonatomic,strong)UIColor *outerCircleLineHighlightColor;// 外圆线高亮颜色
-@property (nonatomic,strong)UIColor *outerCircleColor;             // 外圆填充颜色
-@property (nonatomic,strong)UIColor *outerCircleHighlightColor;    // 外圆高亮填充颜色
-
-@property (nonatomic,assign)CGFloat innerCircleRadius;             // 内圆半径
-@property (nonatomic,strong)UIColor *innerCircleColor;             // 内圆填充颜色
-@property (nonatomic,strong)UIColor *innerCircleHighlightColor;    // 内圆填充高亮颜色
-
-@property (nonatomic,assign)CGFloat lineWidth;                     // 连线宽
-@property (nonatomic,strong)UIColor *lineColor;                    // 连线颜色
+- (id)initWithFrame:(CGRect)frame style:(LYSGPasswordStyle *)style;
 
 @property (nonatomic,assign) id<LYSGPasswordViewDelegate> delegate;
+
 @property (nonatomic,strong)NSMutableArray *pointIDArr;            //当前已输的密码
 
-@property (nonatomic,assign)BOOL crossDomainSelectEnable;          // 是否允许跨圆选择
-
-- (void)refresh;   
+- (void)updatePassword:(NSArray *)passwordAry;
 @end
+
