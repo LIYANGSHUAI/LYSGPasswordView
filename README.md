@@ -6,6 +6,7 @@ Analog gesture cryptography
 使用方法:
 
 1.可以直接下载Demmo,拖入文件使用
+
 2.cocopods安装
 
 终端执行
