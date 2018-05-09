@@ -13,12 +13,9 @@
 		CC48F5FD1F28E55F00D8B51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48F5FB1F28E55F00D8B51B /* Main.storyboard */; };
 		CC48F5FF1F28E55F00D8B51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */; };
 		CC48F6021F28E55F00D8B51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48F6001F28E55F00D8B51B /* LaunchScreen.storyboard */; };
-		CC7829541FB97EA500409DFB /* LYSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */; };
+		CC56E2A320A2DE3C00F69401 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56E2A220A2DE3C00F69401 /* GPViewController.m */; };
 		CC7829551FB97EA500409DFB /* LYSGPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829501FB97EA500409DFB /* LYSGPasswordView.m */; };
-		CC7829561FB97EA500409DFB /* LYSLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829521FB97EA500409DFB /* LYSLineLayer.m */; };
 		CC7829581FB97EED00409DFB /* LYSGPasswordView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC7829571FB97EED00409DFB /* LYSGPasswordView.podspec */; };
-		CCC8A7831FBA892000003388 /* LYSGPasswordStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC8A7821FBA892000003388 /* LYSGPasswordStyle.m */; };
-		CCC8A7861FBAD44700003388 /* LYSAssistGPView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC8A7851FBAD44700003388 /* LYSAssistGPView.m */; };
 		CCC8A7881FBADD4A00003388 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCC8A7871FBADD4A00003388 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -33,17 +30,11 @@
 		CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC48F6011F28E55F00D8B51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC48F6031F28E55F00D8B51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC78294D1FB97EA500409DFB /* LYSCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSCircleLayer.h; sourceTree = "<group>"; };
-		CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSCircleLayer.m; sourceTree = "<group>"; };
+		CC56E2A120A2DE3C00F69401 /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		CC56E2A220A2DE3C00F69401 /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
 		CC78294F1FB97EA500409DFB /* LYSGPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSGPasswordView.h; sourceTree = "<group>"; };
 		CC7829501FB97EA500409DFB /* LYSGPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSGPasswordView.m; sourceTree = "<group>"; };
-		CC7829511FB97EA500409DFB /* LYSLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSLineLayer.h; sourceTree = "<group>"; };
-		CC7829521FB97EA500409DFB /* LYSLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSLineLayer.m; sourceTree = "<group>"; };
 		CC7829571FB97EED00409DFB /* LYSGPasswordView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSGPasswordView.podspec; path = ../../LYSGPasswordView.podspec; sourceTree = "<group>"; };
-		CCC8A7811FBA892000003388 /* LYSGPasswordStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSGPasswordStyle.h; sourceTree = "<group>"; };
-		CCC8A7821FBA892000003388 /* LYSGPasswordStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSGPasswordStyle.m; sourceTree = "<group>"; };
-		CCC8A7841FBAD44700003388 /* LYSAssistGPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSAssistGPView.h; sourceTree = "<group>"; };
-		CCC8A7851FBAD44700003388 /* LYSAssistGPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSAssistGPView.m; sourceTree = "<group>"; };
 		CCC8A7871FBADD4A00003388 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +75,8 @@
 				CC48F5F61F28E55F00D8B51B /* AppDelegate.m */,
 				CC48F5F81F28E55F00D8B51B /* ViewController.h */,
 				CC48F5F91F28E55F00D8B51B /* ViewController.m */,
+				CC56E2A120A2DE3C00F69401 /* GPViewController.h */,
+				CC56E2A220A2DE3C00F69401 /* GPViewController.m */,
 				CC48F5FB1F28E55F00D8B51B /* Main.storyboard */,
 				CC48F5FE1F28E55F00D8B51B /* Assets.xcassets */,
 				CC48F6001F28E55F00D8B51B /* LaunchScreen.storyboard */,
@@ -104,16 +97,8 @@
 		CC78294A1FB97EA500409DFB /* LYSGPasswordView */ = {
 			isa = PBXGroup;
 			children = (
-				CC78294D1FB97EA500409DFB /* LYSCircleLayer.h */,
-				CC78294E1FB97EA500409DFB /* LYSCircleLayer.m */,
 				CC78294F1FB97EA500409DFB /* LYSGPasswordView.h */,
 				CC7829501FB97EA500409DFB /* LYSGPasswordView.m */,
-				CCC8A7811FBA892000003388 /* LYSGPasswordStyle.h */,
-				CCC8A7821FBA892000003388 /* LYSGPasswordStyle.m */,
-				CC7829511FB97EA500409DFB /* LYSLineLayer.h */,
-				CC7829521FB97EA500409DFB /* LYSLineLayer.m */,
-				CCC8A7841FBAD44700003388 /* LYSAssistGPView.h */,
-				CCC8A7851FBAD44700003388 /* LYSAssistGPView.m */,
 			);
 			name = LYSGPasswordView;
 			path = ../../LYSGPasswordView;
@@ -145,7 +130,7 @@
 		CC48F5E71F28E55F00D8B51B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = LYS;
 				TargetAttributes = {
 					CC48F5EE1F28E55F00D8B51B = {
@@ -194,11 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7829551FB97EA500409DFB /* LYSGPasswordView.m in Sources */,
-				CCC8A7831FBA892000003388 /* LYSGPasswordStyle.m in Sources */,
 				CC48F5FA1F28E55F00D8B51B /* ViewController.m in Sources */,
-				CC7829541FB97EA500409DFB /* LYSCircleLayer.m in Sources */,
-				CC7829561FB97EA500409DFB /* LYSLineLayer.m in Sources */,
-				CCC8A7861FBAD44700003388 /* LYSAssistGPView.m in Sources */,
+				CC56E2A320A2DE3C00F69401 /* GPViewController.m in Sources */,
 				CC48F5F71F28E55F00D8B51B /* AppDelegate.m in Sources */,
 				CC48F5F41F28E55F00D8B51B /* main.m in Sources */,
 			);
@@ -239,6 +221,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +229,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -292,6 +276,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -299,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

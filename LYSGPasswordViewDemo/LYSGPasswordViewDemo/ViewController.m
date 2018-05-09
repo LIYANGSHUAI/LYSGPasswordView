@@ -7,29 +7,26 @@
 //
 
 #import "ViewController.h"
-#import "LYSGPasswordView.h"
-#import "LYSAssistGPView.h"
-@interface ViewController ()<LYSGPasswordViewDelegate>
-@property (nonatomic,strong)LYSAssistGPView *assisView;
-@property (nonatomic,strong)LYSGPasswordView *gpView;
+#import "GPViewController.h"
+
+@interface ViewController ()
 @end
 
 @implementation ViewController
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    GPViewController *gpVC = [[GPViewController alloc] init];
+    gpVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    gpVC.view.backgroundColor = [UIColor colorWithRed:5/255.0 green:20/255.0 blue:36/255.0 alpha:0.9];
+    [self presentViewController:gpVC animated:YES completion:nil];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    _assisView = [[LYSAssistGPView alloc] initWithFrame:CGRectMake(self.view.frame.size.width * 0.5 - 50, 60, 100, 100) style:[LYSGPasswordStyle assisStyle]];
-    [self.view addSubview:_assisView];
-    
-    _gpView = [[LYSGPasswordView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.width) style:[LYSGPasswordStyle defaultStyle]];
-    _gpView.delegate = self;
-    [self.view addSubview:_gpView];
-    
-}
-- (void)lyPasswordView:(LYSGPasswordView *)passwordView didSelectNum:(NSArray *)numAry{
-    [_assisView ly_updatePassword:numAry];
 }
 
 - (void)didReceiveMemoryWarning {
