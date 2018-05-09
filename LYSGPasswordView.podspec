@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYSGPasswordView"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Analog gesture cryptography"
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ Analog gesture cryptography
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/LIYANGSHUAI/LYSGPasswordView.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/LIYANGSHUAI/LYSGPasswordView.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
