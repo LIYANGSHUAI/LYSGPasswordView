@@ -3,6 +3,15 @@ Analog gesture cryptography
 
 ![image](https://github.com/LIYANGSHUAI/LYSGPasswordView/blob/master/gif.gif)
 
+使用方法:
+
+1.可以直接下载Demmo,拖入文件使用
+2.cocopods安装
+
+终端执行
+
+pod 'LYSGPasswordView', '~> 0.0.5'
+
 ```objc
 //密码状态
 typedef NS_ENUM(NSInteger,LYPasswordState) {
