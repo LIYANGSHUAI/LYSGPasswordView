@@ -253,7 +253,7 @@
     style.interCircleStyle = interCircleStyle;
     style.centerCircleStyle = centerCircleStyle;
     
-    style.outerCircleStyle.radius = 40;
+    style.outerCircleStyle.radius = 38;
     style.outerCircleStyle.lineWidth = 1.0;
     style.outerCircleStyle.lineColor = [UIColor grayColor];
     style.outerCircleStyle.lineHighlightColor = [UIColor whiteColor];

@@ -22,13 +22,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    _gpView_small = [[LYSGPasswordView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 100)/2.0, 80, 100, 100) style:[LYSGPasswordStyle smallGpStyle]];
-    [self.view addSubview:_gpView_small];
+    LYSGPasswordView *gpView_small = [[LYSGPasswordView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 100)/2.0, 80, 100, 100) style:[LYSGPasswordStyle smallGpStyle]];
+    [self.view addSubview:gpView_small];
     
-    _gpView = [[LYSGPasswordView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.width) style:[LYSGPasswordStyle defaultStyle]];
-    _gpView.delegate = self;
-    _gpView.smallGpView = _gpView_small;
-    [self.view addSubview:_gpView];
+    LYSGPasswordView *gpView = [[LYSGPasswordView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.width) style:[LYSGPasswordStyle defaultStyle]];
+    gpView.delegate = self;
+    gpView.smallGpView = gpView_small;
+    [self.view addSubview:gpView];
     
 }
 - (void)lyPasswordView:(LYSGPasswordView *)passwordView didSelectNum:(NSArray *)numAry{
